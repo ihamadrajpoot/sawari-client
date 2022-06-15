@@ -1,0 +1,63 @@
+#allRecordsContainer{
+    background-image: url('../../assets/images/suzuki.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.allRecordsOverlay{
+    position: inherit;
+    background:rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.allRecordsTextContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allRecordsText{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.allRecordsSubtext{
+    font-size: 16px;
+}
+
+.usersListContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.usersListHeading{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+@media only screen and (max-width: 700px){
+    .allRecordsTextContainer{
+        width: 90%;
+        margin: 50px auto auto auto;
+    }
+    .allRecordsText{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .allRecordsText{
+        font-size: 25px;
+    }
+}
